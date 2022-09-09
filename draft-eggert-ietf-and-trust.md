@@ -100,7 +100,7 @@ make statements about the Trust.
 * {{?RFC8712}} describes the IETF-ISOC relationship and reiterates
   that ISOC selects one of the Trustees.
 
-* {{?RFC8179}}, aka {{BCP79}}, sets out the IETF policies concerning
+* {{?RFC8179}}, aka BCP79, sets out the IETF policies concerning
   IPR related to technology worked on within the IETF.
 
 * {{?RFC8090}} outlines the procedures by which the IETF makes
