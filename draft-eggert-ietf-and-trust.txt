@@ -1,0 +1,272 @@
+
+
+
+
+IETF                                                           L. Eggert
+Internet-Draft                                                    NetApp
+Intended status: Best Current Practice                  9 September 2022
+Expires: 13 March 2023
+
+
+            The Relationship between the IETF and its Trust
+                   draft-eggert-ietf-and-trust-latest
+
+Abstract
+
+   TODO Abstract
+
+About This Document
+
+   This note is to be removed before publishing as an RFC.
+
+   The latest revision of this draft can be found at
+   https://larseggert.github.io/ietf-and-trust/#go.draft-eggert-ietf-
+   and-trust.html.  Status information for this document may be found at
+   https://datatracker.ietf.org/doc/draft-eggert-ietf-and-trust/.
+
+   Discussion of this document takes place on the GENDISPATCH Working
+   Group mailing list (mailto:gendispatch@ietf.org), which is archived
+   at https://mailarchive.ietf.org/arch/browse/gendispatch/.  Subscribe
+   at https://www.ietf.org/mailman/listinfo/gendispatch/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/https://github.com/larseggert/ietf-and-trust.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 13 March 2023.
+
+Copyright Notice
+
+   Copyright (c) 2022 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Revised BSD License text as
+   described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Revised BSD License.
+
+Table of Contents
+
+   1.  Introduction
+   2.  RFCs about the IETF Trust
+   3.  Security Considerations
+   4.  IANA Considerations
+   5.  References
+     5.1.  Normative References
+     5.2.  Informative References
+   Author's Address
+
+1.  Introduction
+
+   The IETF Trust [TRUST] was created on December 15, 2005.  The
+   purposes of the Trust is to acquire, hold, maintain and license
+   existing and future intellectual property (IPR) and other property
+   used in connection with the Internet standards process and the IETF.
+   The Second Amended and Restated Trust Agreement [TAV2] is the
+   revision of the original founding document currently in effect.
+
+2.  RFCs about the IETF Trust
+
+   This section gives a brief overview of the various current RFCs that
+   make statements about the Trust.
+
+   *  [RFC9281], aka BCP11, describes the role of the Trust in the
+      context of other entities involved in the IETF standards process.
+
+   *  [RFC9280] defines the role of the Trust in Version 3 of the RFC
+      Editor Model.
+
+   *  [RFC8722] defines that the Trust holds - on behalf of the IETF -
+      any intellectual property rights of IETF protocol parameter
+      assignment information, including the registry and its contents,
+      and all registry publications.
+
+   *  [RFC8721] describes the desires of the IETF regarding outbound
+      rights to be granted in IETF Contributions.
+
+   *  [RFC8714] updates the process for selection of Trustees for the
+      IETF Trust under Version 2 of the IETF Administrative Support
+      Activity (IASA) [RFC8711]; [RFC8717] updates the related IETF
+      terminology.  Together, these three RFCs form BCP101.  [RFC8715]
+      captures the rationale for the changes introduced in [RFC8714].
+
+   *  [RFC8713], a part of BCP10, defines the selection, confirmation,
+      and recall process of IETF nominating and recall committees,
+      including for Trustees.
+
+   *  [RFC8712] describes the IETF-ISOC relationship and reiterates that
+      ISOC selects one of the Trustees.
+
+   *  [RFC8179], aka BCP79, sets out the IETF policies concerning IPR
+      related to technology worked on within the IETF.
+
+   *  [RFC8090] outlines the procedures by which the IETF makes
+      appointments to the Community Coordination Group (CCG), which
+      provides advice and guidance to the IETF Trust in matters related
+      to the IANA trademarks and the IANA domain names.
+
+   *  [RFC5745], [RFC5744][RFC4846] and [RFC5743] clarify that the Trust
+      also manages the copyrights associated with RFCs published on the
+      IAB, Independent and IRTF RFC streams.
+
+   *  [RFC5485] that the Trust logically owns the hardware security
+      module holding the keys used to provide IETF Secretariat signature
+      for Internet-Drafts.
+
+   *  [RFC5378], aka BCP78, is the key document that details which
+      rights IETF contributors provide to the Trust.
+
+   There are numerous other RFCs that mention the Trust in passing,
+   reiterating various aspects of its purpose, process or operation.
+   Yet others are older RFCs that have been obsoleted by the ones
+   mentioned above.
+
+3.  Security Considerations
+
+   The usual security considerations [RFC3552] do not apply to this
+   document.
+
+4.  IANA Considerations
+
+   This document does not request any IANA actions.
+
+5.  References
+
+5.1.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <https://www.rfc-editor.org/rfc/rfc2119>.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
+              2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
+              May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+5.2.  Informative References
+
+   [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
+              Text on Security Considerations", BCP 72, RFC 3552,
+              DOI 10.17487/RFC3552, July 2003,
+              <https://www.rfc-editor.org/rfc/rfc3552>.
+
+   [RFC4846]  Klensin, J., Ed. and D. Thaler, Ed., "Independent
+              Submissions to the RFC Editor", RFC 4846,
+              DOI 10.17487/RFC4846, July 2007,
+              <https://www.rfc-editor.org/rfc/rfc4846>.
+
+   [RFC5378]  Bradner, S., Ed. and J. Contreras, Ed., "Rights
+              Contributors Provide to the IETF Trust", BCP 78, RFC 5378,
+              DOI 10.17487/RFC5378, November 2008,
+              <https://www.rfc-editor.org/rfc/rfc5378>.
+
+   [RFC5485]  Housley, R., "Digital Signatures on Internet-Draft
+              Documents", RFC 5485, DOI 10.17487/RFC5485, March 2009,
+              <https://www.rfc-editor.org/rfc/rfc5485>.
+
+   [RFC5743]  Falk, A., "Definition of an Internet Research Task Force
+              (IRTF) Document Stream", RFC 5743, DOI 10.17487/RFC5743,
+              December 2009, <https://www.rfc-editor.org/rfc/rfc5743>.
+
+   [RFC5744]  Braden, R. and J. Halpern, "Procedures for Rights Handling
+              in the RFC Independent Submission Stream", RFC 5744,
+              DOI 10.17487/RFC5744, December 2009,
+              <https://www.rfc-editor.org/rfc/rfc5744>.
+
+   [RFC5745]  Malis, A., Ed. and IAB, "Procedures for Rights Handling in
+              the RFC IAB Stream", RFC 5745, DOI 10.17487/RFC5745,
+              December 2009, <https://www.rfc-editor.org/rfc/rfc5745>.
+
+   [RFC8090]  Housley, R., "Appointment Procedures for the IETF
+              Representatives to the Community Coordination Group
+              (CCG)", RFC 8090, DOI 10.17487/RFC8090, February 2017,
+              <https://www.rfc-editor.org/rfc/rfc8090>.
+
+   [RFC8179]  Bradner, S. and J. Contreras, "Intellectual Property
+              Rights in IETF Technology", BCP 79, RFC 8179,
+              DOI 10.17487/RFC8179, May 2017,
+              <https://www.rfc-editor.org/rfc/rfc8179>.
+
+   [RFC8711]  Haberman, B., Hall, J., and J. Livingood, "Structure of
+              the IETF Administrative Support Activity, Version 2.0",
+              BCP 101, RFC 8711, DOI 10.17487/RFC8711, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8711>.
+
+   [RFC8712]  Camarillo, G. and J. Livingood, "The IETF-ISOC
+              Relationship", RFC 8712, DOI 10.17487/RFC8712, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8712>.
+
+   [RFC8713]  Kucherawy, M., Ed., Hinden, R., Ed., and J. Livingood,
+              Ed., "IAB, IESG, IETF Trust, and IETF LLC Selection,
+              Confirmation, and Recall Process: Operation of the IETF
+              Nominating and Recall Committees", BCP 10, RFC 8713,
+              DOI 10.17487/RFC8713, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8713>.
+
+   [RFC8714]  Arkko, J. and T. Hardie, "Update to the Process for
+              Selection of Trustees for the IETF Trust", BCP 101,
+              RFC 8714, DOI 10.17487/RFC8714, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8714>.
+
+   [RFC8715]  Arkko, J., "IETF Administrative Support Activity 2.0:
+              Update to the Process for Selection of Trustees for the
+              IETF Trust", RFC 8715, DOI 10.17487/RFC8715, February
+              2020, <https://www.rfc-editor.org/rfc/rfc8715>.
+
+   [RFC8717]  Klensin, J., Ed., "IETF Administrative Support Activity
+              2.0: Consolidated Updates to IETF Administrative
+              Terminology", BCP 101, RFC 8717, DOI 10.17487/RFC8717,
+              February 2020, <https://www.rfc-editor.org/rfc/rfc8717>.
+
+   [RFC8721]  Halpern, J., Ed., "Advice to the Trustees of the IETF
+              Trust on Rights to Be Granted in IETF Documents",
+              RFC 8721, DOI 10.17487/RFC8721, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8721>.
+
+   [RFC8722]  McPherson, D., Ed., Kolkman, O., Ed., Klensin, J., Ed.,
+              and G. Huston, Ed., "Defining the Role and Function of
+              IETF Protocol Parameter Registry Operators", RFC 8722,
+              DOI 10.17487/RFC8722, February 2020,
+              <https://www.rfc-editor.org/rfc/rfc8722>.
+
+   [RFC9280]  Saint-Andre, P., Ed., "RFC Editor Model (Version 3)",
+              RFC 9280, DOI 10.17487/RFC9280, June 2022,
+              <https://www.rfc-editor.org/rfc/rfc9280>.
+
+   [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
+              Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
+              2022, <https://www.rfc-editor.org/rfc/rfc9281>.
+
+   [TAV2]     "Second Amended and Restated Trust Agreement", 6 November
+              2018, <https://trustee.ietf.org/documents/founding-
+              documents/second-amended-trust-agreement-2018/>.
+
+   [TRUST]    "IETF Trust", <https://trustee.ietf.org/>.
+
+Author's Address
+
+   Lars Eggert
+   NetApp
+   Stenbergintie 12 B
+   FI-02700 Kauniainen
+   Finland
+   Email: lars@eggert.org
+   URI:   https://eggert.org/
