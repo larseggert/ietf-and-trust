@@ -19,35 +19,35 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "The Relationship between the IETF and its Trust"
+# abbrev: "TODO - Abbreviation"
 category: info
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-eggert-ietf-and-trust-latest
 submissiontype: IETF  # also: "independent", "IAB", or "IRTF"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
-keyword:
- - next generation
- - unicorn
- - sparkling distributed ledger
-venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+# area: AREA
+# workgroup: WG Working Group
+# keyword:
+#  - next generation
+#  - unicorn
+#  - sparkling distributed ledger
+# venue:
+#   group: WG
+#   type: Working Group
+#   mail: WG@example.com
+#   arch: https://example.com/WG
+#   github: USER/REPO
+#   latest: https://example.com/LATEST
 
 author:
  -
-    fullname: Your Name Here
-    organization: Your Organization Here
-    email: your.email@example.com
+    fullname: Lars Eggert
+    organization: NetApp
+    email: lars@eggert.org
 
 normative:
 
