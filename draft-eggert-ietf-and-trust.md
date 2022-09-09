@@ -9,8 +9,8 @@ number:
 date:
 consensus: true
 v: 3
-# area: AREA
-# workgroup: WG Working Group
+area: ""
+workgroup: "IETF"
 # keyword:
 #  - next generation
 #  - unicorn
