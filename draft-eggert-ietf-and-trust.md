@@ -129,12 +129,12 @@ written down.
 The Trust Agreement {{TAV2}} is the foundational document of the IETF
 Trust, and defines the purpose of the Trust as
 
->...the advancement of education and public interest by acquiring,
-    holding, maintaining and licensing certain existing and future
-    intellectual property and other property used in connection with
-    the Internet standards process and its administration, for the
-    advancement of the science and technology associated with the
-    Internet and related technology.
+>(...) the advancement of education and public interest by acquiring,
+ holding, maintaining and licensing certain existing and future
+ intellectual property and other property used in connection with the
+ Internet standards process and its administration, for the
+ advancement of the science and technology associated with the
+ Internet and related technology.
 
 It also defines the powers, rights and obligations of the Trustees and
 the Trust.
@@ -181,17 +181,20 @@ assets, which is the Trust's main responsibility.
 
 ## Transparency of Operation
 
+The IETF community expects the Trust to operate in a transparent
+manner whenever possible.
+
 
 ### Assets {#assets}
 
-The purpose of the Trust is
+The purpose of the Trust is {{TAV2}}
 
->maintaining and licensing certain existing and future intellectual
- property and other property used in connection with the Internet
- standards process
+>(...) maintaining and licensing certain existing and future
+ intellectual property and other property used in connection with the
+ Internet standards process (...)
 
 An up-to-date detailed public asset register is a key requirement to
-fullfil this purpose.
+fulfill this purpose.
 
 While the Trust website contains an asset register {{ASSETS}}, the
 information presented there is not detailed and likely out-of-date.
@@ -202,7 +205,7 @@ no "licenses to others" are being shown after 2015. A third is that
 the IRTF logo is missing from {{TAL}}, for which the Trust was given
 the copyright in 2012.
 
-In order to fullfil its purpose, the IETF community expects the Trust
+In order to fulfill its purpose, the IETF community expects the Trust
 to maintain an up-to-date detailed public record on the assets it
 manages, the licenses under which different asset types may be
 licensable, and the license requests it receives and grants.
@@ -210,12 +213,11 @@ licensable, and the license requests it receives and grants.
 
 ### Reporting
 
-The IETF community expects the Trust to operate in a transparent
-manner whenever possible. {{TAV2}} requires
+{{TAV2}} requires
 
 >The Trustees shall report annually to the IETF community concerning
  the activities of the Trust, including grants or licenses given by
- the Trust
+ the Trust (...)
 
 The Trust has been using presentations at the IETF plenary to report
 to the IETF community, and its presentations are available as part of
@@ -228,7 +230,7 @@ its website {{ASSETS}} is not suitable, as described in {{assets}}.
 
 The Trust also holds regular meetings, and publishes their minutes
 {{MINUTES}}. In order to further increase transparency, the Trust
-should consider anouncing the meetings to the public, and letting
+should consider announcing the meetings to the public, and letting
 observers join.
 
 
@@ -236,10 +238,10 @@ observers join.
 
 {{TAV2}} charges the Trust to
 
->use reasonable efforts to secure contributions or commitments from
- third parties to contribute or make available sufficient funds to or
- on behalf of the Trust to administer the Trust and to maintain the
- Trust Assets
+>(...) use reasonable efforts to secure contributions or commitments
+ from third parties to contribute or make available sufficient funds
+ to or on behalf of the Trust to administer the Trust and to maintain
+ the Trust Assets (...)
 
 Under {{?RFC8711}}, the IETF LLC is responsible for raising money on
 behalf of the IETF, specifically to avoid confusion about who is
