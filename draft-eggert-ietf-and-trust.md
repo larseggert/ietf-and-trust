@@ -1,6 +1,6 @@
 ---
 title: "The Relationship between the IETF and its Trust"
-# abbrev: "TODO - Abbreviation"
+abbrev: The IETF and the IETF Trust
 category: bcp
 
 docname: draft-eggert-ietf-and-trust-latest
@@ -43,17 +43,63 @@ informative:
     date: false
     author:
     - org:
-    target: "https://trustee.ietf.org/"
+    target: https://trustee.ietf.org/
   TAV2:
     title: Second Amended and Restated Trust Agreement
     date: 2018-11-6
     author:
     - org:
-    target: "https://trustee.ietf.org/documents/founding-documents/second-amended-trust-agreement-2018/"
+    target: https://trustee.ietf.org/documents/founding-documents/second-amended-trust-agreement-2018/
+  APIT:
+    title: Administrative Procedures of the IETF Trust
+    date: 2020-5-26
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/policies-and-procedures/administrative-procedures/
+  COIP:
+    title: Conflict of Interest Policy
+    date: 2016-4-21
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/policies-and-procedures/conflict-of-interest-policy/
+  RRMP:
+    title: IETF Trust Records Retention and Management Policy
+    date: 2016-6-16
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/policies-and-procedures/records-retention-policy/
+  OPPD:
+    title: Obsolete Policies, Procedures & Drafts
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/policies-and-procedures/obsolete-policies-procedures/
+  PAST:
+    title: IETF - Past Meetings
+    author:
+    - org:
+    target: https://www.ietf.org/how/meetings/past/
+  ASSETS:
+    title: Assett Register
+    author:
+    - org:
+    target: https://trustee.ietf.org/assets/asset-register/
+  TAL:
+    title: Trademarks and Logos
+    author:
+    - org:
+    target: https://trustee.ietf.org/assets/trademarks-and-logos/
+  MINUTES:
+    title: Minutes
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/minutes/
+
+
 
 --- abstract
 
-TODO Abstract
+This document describes the expectations the IETF community has on the
+structure and operation of the IETF Trust.
 
 
 --- middle
@@ -67,7 +113,157 @@ used in connection with the Internet standards process and the IETF.
 The Second Amended and Restated Trust Agreement {{TAV2}} is the
 revision of the original founding document currently in effect.
 
-# RFCs about the IETF Trust
+Various RFCs, summarized in {{rfcs}}, discuss the relationship of the
+Trust to different aspects of the IETF standards process. This
+document intends to complement these existing documents, capturing
+the expectations the IETF community has about the structure and
+operation of the Trust. Due to the separation between the Trust and
+the IETF, this document cannot go beyond describing the expectations
+of the IETF community, but it may still be useful to the Trustees -
+most of which are selected out of this community - to see them
+written down.
+
+
+# Community Expectations about the IETF Trust {#expect}
+
+The Trust Agreement {{TAV2}} is the foundational document of the IETF
+Trust, and defines the purpose of the Trust as
+
+>...the advancement of education and public interest by acquiring,
+    holding, maintaining and licensing certain existing and future
+    intellectual property and other property used in connection with
+    the Internet standards process and its administration, for the
+    advancement of the science and technology associated with the
+    Internet and related technology.
+
+It also defines the powers, rights and obligations of the Trustees and
+the Trust.
+
+At a minimum, the IETF community expects the Trust to comply with the
+requirements placed upon it by its foundational document {{TAV2}}.
+
+In addition, the IETF community expects the Trust to operate in a
+transparent manner whenever possible, similar to how the IETF itself
+operates.
+
+
+## Compliance with Foundational Documents {#comp}
+
+{{TAV2}} requires the Trust to publish a number of procedures, including:
+
+1. Procedures for administration of the Trust
+
+   These have been published {{APIT}} and revised, with some - but not all -
+   prior revisions available {{OPPD}}.
+
+2. Procedures for reimbursement by Trustees of their fees and expenses
+   from the Trust
+
+   {{APIT}} contains a statement about reimbursements (under point 8),
+   but does not describe a procedure.
+
+3. Procedures for management of the Trust assets
+
+   No such procedures seem to be published.
+
+4. Procedures for conflicts of interest
+
+   These have been published {{COIP}}.
+
+5. Standards of conduct
+
+   No such standards of conduct seem to be published.
+
+The IETF community expects the Trust to comply with its founding
+document, and hence expects it to publish the missing procedures.
+This is especially true for procedures for management of the Trust
+assets, which is the Trust's main responsibility.
+
+## Transparency of Operation
+
+
+### Assets {#assets}
+
+The purpose of the Trust is
+
+>maintaining and licensing certain existing and future intellectual
+ property and other property used in connection with the Internet
+ standards process
+
+An up-to-date detailed public asset register is a key requirement to
+fullfil this purpose.
+
+While the Trust website contains an asset register {{ASSETS}}, the
+information presented there is not detailed and likely out-of-date.
+For example, "IETF contributions" is one type of asset mentioned
+without further detail such as whether a copyright was granted for
+contributions predating {{?RFC5378}}. Another example is that
+no "licenses to others" are being shown after 2015. A third is that
+the IRTF logo is missing from {{TAL}}, for which the Trust was given
+the copyright in 2012.
+
+In order to fullfil its purpose, the IETF community expects the Trust
+to maintain an up-to-date detailed public record on the assets it
+manages, the licenses under which different asset types may be
+licensable, and the license requests it receives and grants.
+
+
+### Reporting
+
+The IETF community expects the Trust to operate in a transparent
+manner whenever possible. {{TAV2}} requires
+
+>The Trustees shall report annually to the IETF community concerning
+ the activities of the Trust, including grants or licenses given by
+ the Trust
+
+The Trust has been using presentations at the IETF plenary to report
+to the IETF community, and its presentations are available as part of
+the IETF proceedings {{PAST}}. It also makes information available on
+its website {{TRUST}}.
+
+However, its presentations to the community do not include information
+on grants or licenses given by the Trust, and the asset register on
+its website {{ASSETS}} is not suitable, as described in {{assets}}.
+
+The Trust also holds regular meetings, and publishes their minutes
+{{MINUTES}}. In order to further increase transparency, the Trust
+should consider anouncing the meetings to the public, and letting
+observers join.
+
+
+## Funding
+
+{{TAV2}} charges the Trust to
+
+>use reasonable efforts to secure contributions or commitments from
+ third parties to contribute or make available sufficient funds to or
+ on behalf of the Trust to administer the Trust and to maintain the
+ Trust Assets
+
+Under {{?RFC8711}}, the IETF LLC is responsible for raising money on
+behalf of the IETF, specifically to avoid confusion about who is
+responsible for representing the IETF to sponsors. The IETF community
+therefore expects the Trust to direct its fundraising solely at the
+IETF LLC, and conversely expects the IETF LLC to fund the operations
+of the Trust. Should the IETF Trust need to demonstrate a diversity
+of funding, the IETF LLC is expected to orchestrate that.
+
+
+# Security Considerations
+
+The usual security considerations {{?RFC3552}} do not apply to this
+document.
+
+
+# IANA Considerations
+
+This document does not request any IANA actions.
+
+
+--- back
+
+# RFCs about the IETF Trust {#rfcs}
 
 This section gives a brief overview of the various current RFCs that
 make statements about the Trust.
@@ -124,26 +320,25 @@ reiterating various aspects of its purpose, process or operation. Yet
 others are older RFCs that have been obsoleted by the ones mentioned
 above.
 
-<!--
-# Conventions and Definitions
 
-{::boilerplate bcp14-tagged}
--->
+# Changelog
 
-# Security Considerations
+{:aside}
+> RFC Editor, please remove this appendix before publication.
 
-The usual security considerations {{?RFC3552}} do not apply to this
-document.
+<!-- For future PRs, please include a bullet below that summarizes the change
+     and link the issue number to the GitHub issue page. -->
 
-# IANA Considerations
+## draft-eggert-ietf-and-trust-00
 
-This document does not request any IANA actions.
+Initial submission.
 
---- back
 
-<!--
 # Acknowledgments
 {:numbered="false"}
 
-TODO acknowledge.
--->
+These individuals suggested improvements to this document:
+
+<ul spacing="compact">
+<li><t><contact fullname="TBD"/></t></li>
+</ul>
