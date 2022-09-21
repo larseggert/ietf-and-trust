@@ -62,23 +62,23 @@ informative:
     author:
     - org:
     target: https://trustee.ietf.org/documents/policies-and-procedures/conflict-of-interest-policy/
-  RRMP:
-    title: IETF Trust Records Retention and Management Policy
-    date: 2016-6-16
-    author:
-    - org:
-    target: https://trustee.ietf.org/documents/policies-and-procedures/records-retention-policy/
+  # RRMP:
+  #   title: IETF Trust Records Retention and Management Policy
+  #   date: 2016-6-16
+  #   author:
+  #   - org:
+  #   target: https://trustee.ietf.org/documents/policies-and-procedures/records-retention-policy/
   OPPD:
     title: Obsolete Policies, Procedures & Drafts
     author:
     - org:
     target: https://trustee.ietf.org/documents/policies-and-procedures/obsolete-policies-procedures/
-  PAST:
+  PM:
     title: IETF - Past Meetings
     author:
     - org:
     target: https://www.ietf.org/how/meetings/past/
-  ASSETS:
+  AREG:
     title: Assett Register
     author:
     - org:
@@ -88,11 +88,36 @@ informative:
     author:
     - org:
     target: https://trustee.ietf.org/assets/trademarks-and-logos/
-  MINUTES:
+  MIN:
     title: Minutes
     author:
     - org:
     target: https://trustee.ietf.org/documents/minutes/
+  FIN:
+    title: Financials
+    author:
+    - org:
+    target: https://trustee.ietf.org/about/financials/
+  ANN:
+    title: Announcements
+    author:
+    - org:
+    target: https://trustee.ietf.org/about/announcements/
+  FAQ:
+    title: Frequently Asked Questions
+    author:
+    - org:
+    target: https://trustee.ietf.org/about/faq/
+  # TLP5:
+  #   title: Corrected Legal Provisions Relating to IETF Documents
+  #   author:
+  #   - org:
+  #   target: https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/
+  APP:
+    title: Appeals
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/appeals/
 
 
 
@@ -164,7 +189,7 @@ operates.
 
 3. Procedures for management of the Trust assets
 
-   No such procedures seem to be published.
+   No such procedures seem to be published at the time of writing.
 
 4. Procedures for conflicts of interest
 
@@ -172,12 +197,16 @@ operates.
 
 5. Standards of conduct
 
-   No such standards of conduct seem to be published.
+   No such standards of conduct seem to be published at the time of writing.
 
 The IETF community expects the Trust to comply with its founding
 document, and hence expects it to publish the missing procedures.
+
 This is especially true for procedures for management of the Trust
-assets, which is the Trust's main responsibility.
+assets, which is the Trust's main responsibility. (The Trust does
+maintain a lengthy FAQ {{FAQ}}, but that does not take the place of a
+procedural document on management of the Trust assets.)
+
 
 ## Transparency of Operation
 
@@ -194,16 +223,16 @@ The purpose of the Trust is {{TAV2}}
  Internet standards process (...)
 
 An up-to-date detailed public asset register is a key requirement to
-fulfill this purpose.
+fulfill this purpose. While the Trust website contains an asset
+register {{AREG}}, the information presented there is not detailed
+and likely out-of-date.
 
-While the Trust website contains an asset register {{ASSETS}}, the
-information presented there is not detailed and likely out-of-date.
-For example, "IETF contributions" is one type of asset mentioned
-without further detail such as whether a copyright was granted for
-contributions predating {{?RFC5378}}. Another example is that
-no "licenses to others" are being shown after 2015. A third is that
-the IRTF logo is missing from {{TAL}}, for which the Trust was given
-the copyright in 2012.
+At the time of writing, for example, "IETF contributions" is one type
+of asset mentioned without further detail such as whether a copyright
+was granted for contributions predating {{?RFC5378}}. Another example
+is that no "licenses to others" are being shown after 2015. A third
+is that the IRTF logo is missing from {{TAL}}, for which the Trust
+was given the copyright in 2012.
 
 In order to fulfill its purpose, the IETF community expects the Trust
 to maintain an up-to-date detailed public record on the assets it
@@ -221,17 +250,23 @@ licensable, and the license requests it receives and grants.
 
 The Trust has been using presentations at the IETF plenary to report
 to the IETF community, and its presentations are available as part of
-the IETF proceedings {{PAST}}. It also makes information available on
-its website {{TRUST}}.
+the IETF proceedings {{PM}}. It also makes information available on
+its website {{TRUST}}, and sends occasional announcements to the IETF
+community by email {{ANN}}.
 
-However, its presentations to the community do not include information
-on grants or licenses given by the Trust, and the asset register on
-its website {{ASSETS}} is not suitable, as described in {{assets}}.
+However, its presentations and announcements to the community do not
+include information on grants or licenses given by the Trust, and the
+asset register on its website {{AREG}} is not suitable, as described
+in {{assets}}.
 
 The Trust also holds regular meetings, and publishes their minutes
-{{MINUTES}}. In order to further increase transparency, the Trust
+{{MIN}}. In order to further increase transparency, the Trust
 should consider announcing the meetings to the public, and letting
 observers join.
+
+The Trust publishes financial information {{FIN}}, including annual
+budgets and monthly statements, fulfilling the IETF community
+expectations on transparency.
 
 
 ## Funding
@@ -245,12 +280,30 @@ observers join.
 
 Under {{?RFC8711}}, the IETF LLC is responsible for raising money on
 behalf of the IETF, specifically to avoid confusion about who is
-responsible for representing the IETF to sponsors. The IETF community
-therefore expects the Trust to direct its fundraising solely at the
-IETF LLC, and conversely expects the IETF LLC to fund the operations
-of the Trust. Should the IETF Trust need to demonstrate a diversity
-of funding, the IETF LLC is expected to orchestrate that.
+responsible for representing the IETF to sponsors.
 
+The IETF community therefore expects the Trust to direct its
+fundraising solely at the IETF LLC, and conversely expects the IETF
+LLC to fund the operations of the Trust. Should the IETF Trust need
+to demonstrate a diversity of funding, the IETF LLC is expected to
+orchestrate that.
+
+
+## Accountability
+
+The Trust consists of five Trustees. Three are appointed by the IETF
+NomCom, one by the IESG, and one by the Internet Society (ISOC) Board
+of Trustees {{?RFC8714}}. Trustees appointed by the NomCom may be
+recalled per {{?RFC8713}}. Trustees appointed by the IESG or by the
+ISOC Board of Trustees may be recalled by the appointing body.
+
+Individual decisions or actions by the Trust may also be appealed by
+community members {{APP}} following the process in {{?RFC2026}}, with
+the IAB and the ISOC Board of Trustees as the appeal chain. The Trust
+documents appeals and reponses {{APP}}.
+
+Together, these mechanisms provide sufficient community
+accountability.
 
 # Security Considerations
 
