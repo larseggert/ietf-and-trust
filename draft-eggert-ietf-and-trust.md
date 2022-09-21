@@ -142,11 +142,10 @@ Various RFCs, summarized in {{rfcs}}, discuss the relationship of the
 Trust to different aspects of the IETF standards process. This
 document intends to complement these existing documents, capturing
 the expectations the IETF community has about the structure and
-operation of the Trust. Due to the separation between the Trust and
-the IETF, this document cannot go beyond describing the expectations
-of the IETF community, but it may still be useful to the Trustees -
-most of which are selected out of this community - to see them
-written down.
+operation of the Trust. In addition this document clarifies the 
+relationship between the Trust and the IETF and the applicability
+of BCPs that cover the IETF as a whole, without specific mention
+of the Trust.
 
 
 # Community Expectations about the IETF Trust {#expect}
@@ -171,6 +170,13 @@ In addition, the IETF community expects the Trust to operate in a
 transparent manner whenever possible, similar to how the IETF itself
 operates.
 
+## Relationship of the IETF Trust to the IETF and applicability of BCPs (#relate)
+
+The IETF Community considers the Trust to be a core part of the IETF
+that is critical to the ongoing function of the IETF. 
+
+Consequently, the IETF Community expects all BCPs that apply to the IETF 
+to apply to the Trust, even if the Trust is not specifically referenced.
 
 ## Compliance with Foundational Documents {#comp}
 
@@ -211,7 +217,8 @@ procedural document on management of the Trust assets.)
 ## Transparency of Operation
 
 The IETF community expects the Trust to operate in a transparent
-manner whenever possible.
+manner whenever possible, matching the level of transparency 
+demonstrated by other parts of the IETF.
 
 
 ### Assets {#assets}
@@ -237,7 +244,14 @@ was given the copyright in 2012.
 In order to fulfill its purpose, the IETF community expects the Trust
 to maintain an up-to-date detailed public record on the assets it
 manages, the licenses under which different asset types may be
-licensable, and the license requests it receives and grants.
+licensable, and the license requests it receives and grants.  This 
+should as a minimum include:
+
+* The current known licensing position of every RFC.
+* A list of every logo and badge for which the Trust holds the 
+  copyright.
+* A list of every website for which the Trust holds the copyright.
+* A list of every domain name registered to the Trust.
 
 
 ### Reporting
@@ -248,9 +262,15 @@ licensable, and the license requests it receives and grants.
  the activities of the Trust, including grants or licenses given by
  the Trust (...)
 
-The Trust has been using presentations at the IETF plenary to report
+The Trust presents at the IETF plenary to report
 to the IETF community, and its presentations are available as part of
-the IETF proceedings {{PM}}. It also makes information available on
+the IETF proceedings {{PM}}. The Trust only presents to plenary once
+a year, which while strictly conforming to {{TAV2}} is notably less
+frequent than the other parts of the IETF that report at every 
+plenary.  The Trust should match the level of reporting of the other 
+parts of the IETF and present at every plenary.
+
+It also makes information available on
 its website {{TRUST}}, and sends occasional announcements to the IETF
 community by email {{ANN}}.
 
@@ -266,7 +286,7 @@ observers join.
 
 The Trust publishes financial information {{FIN}}, including annual
 budgets and monthly statements, fulfilling the IETF community
-expectations on transparency.
+expectations on financial transparency.
 
 
 ## Funding
@@ -286,7 +306,7 @@ The IETF community therefore expects the Trust to direct its
 fundraising solely at the IETF LLC, and conversely expects the IETF
 LLC to fund the operations of the Trust. Should the IETF Trust need
 to demonstrate a diversity of funding, the IETF LLC is expected to
-orchestrate that.
+manage that.
 
 
 ## Accountability
@@ -302,8 +322,15 @@ community members {{APP}} following the process in {{?RFC2026}}, with
 the IAB and the ISOC Board of Trustees as the appeal chain. The Trust
 documents appeals and reponses {{APP}}.
 
+Additionally, the IETF Community as beneficiaries of the Trust, have 
+legal standing to take action against the Trust if they believe it is
+not acting in their best interests.
+
 Together, these mechanisms provide sufficient community
 accountability.
+
+In the event of the Trust changing its legal structure then these
+three layers of accountability must be maintained.
 
 # Security Considerations
 
