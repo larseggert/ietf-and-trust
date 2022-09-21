@@ -4,8 +4,8 @@
 
 IETF                                                           L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Best Current Practice                 20 September 2022
-Expires: 24 March 2023
+Intended status: Best Current Practice                 21 September 2022
+Expires: 25 March 2023
 
 
             The Relationship between the IETF and its Trust
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 24 March 2023.
+   This Internet-Draft will expire on 25 March 2023.
 
 Copyright Notice
 
@@ -73,6 +73,7 @@ Table of Contents
        2.2.1.  Assets
        2.2.2.  Reporting
      2.3.  Funding
+     2.4.  Accountability
    3.  Security Considerations
    4.  IANA Considerations
    5.  Informative References
@@ -141,7 +142,7 @@ Table of Contents
 
    3.  Procedures for management of the Trust assets
 
-       No such procedures seem to be published.
+       No such procedures seem to be published at the time of writing.
 
    4.  Procedures for conflicts of interest
 
@@ -149,12 +150,16 @@ Table of Contents
 
    5.  Standards of conduct
 
-       No such standards of conduct seem to be published.
+       No such standards of conduct seem to be published at the time of
+       writing.
 
    The IETF community expects the Trust to comply with its founding
    document, and hence expects it to publish the missing procedures.
+
    This is especially true for procedures for management of the Trust
-   assets, which is the Trust's main responsibility.
+   assets, which is the Trust's main responsibility.  (The Trust does
+   maintain a lengthy FAQ [FAQ], but that does not take the place of a
+   procedural document on management of the Trust assets.)
 
 2.2.  Transparency of Operation
 
@@ -170,16 +175,16 @@ Table of Contents
       the Internet standards process (...)
 
    An up-to-date detailed public asset register is a key requirement to
-   fulfill this purpose.
+   fulfill this purpose.  While the Trust website contains an asset
+   register [AREG], the information presented there is not detailed and
+   likely out-of-date.
 
-   While the Trust website contains an asset register [ASSETS], the
-   information presented there is not detailed and likely out-of-date.
-   For example, "IETF contributions" is one type of asset mentioned
-   without further detail such as whether a copyright was granted for
-   contributions predating [RFC5378].  Another example is that no
-   "licenses to others" are being shown after 2015.  A third is that the
-   IRTF logo is missing from [TAL], for which the Trust was given the
-   copyright in 2012.
+   At the time of writing, for example, "IETF contributions" is one type
+   of asset mentioned without further detail such as whether a copyright
+   was granted for contributions predating [RFC5378].  Another example
+   is that no "licenses to others" are being shown after 2015.  A third
+   is that the IRTF logo is missing from [TAL], for which the Trust was
+   given the copyright in 2012.
 
    In order to fulfill its purpose, the IETF community expects the Trust
    to maintain an up-to-date detailed public record on the assets it
@@ -196,18 +201,23 @@ Table of Contents
 
    The Trust has been using presentations at the IETF plenary to report
    to the IETF community, and its presentations are available as part of
-   the IETF proceedings [PAST].  It also makes information available on
-   its website [TRUST].
+   the IETF proceedings [PM].  It also makes information available on
+   its website [TRUST], and sends occasional announcements to the IETF
+   community by email [ANN].
 
-   However, its presentations to the community do not include
-   information on grants or licenses given by the Trust, and the asset
-   register on its website [ASSETS] is not suitable, as described in
+   However, its presentations and announcements to the community do not
+   include information on grants or licenses given by the Trust, and the
+   asset register on its website [AREG] is not suitable, as described in
    Section 2.2.1.
 
    The Trust also holds regular meetings, and publishes their minutes
-   [MINUTES].  In order to further increase transparency, the Trust
-   should consider announcing the meetings to the public, and letting
-   observers join.
+   [MIN].  In order to further increase transparency, the Trust should
+   consider announcing the meetings to the public, and letting observers
+   join.
+
+   The Trust publishes financial information [FIN], including annual
+   budgets and monthly statements, fulfilling the IETF community
+   expectations on transparency.
 
 2.3.  Funding
 
@@ -220,12 +230,29 @@ Table of Contents
 
    Under [RFC8711], the IETF LLC is responsible for raising money on
    behalf of the IETF, specifically to avoid confusion about who is
-   responsible for representing the IETF to sponsors.  The IETF
-   community therefore expects the Trust to direct its fundraising
-   solely at the IETF LLC, and conversely expects the IETF LLC to fund
-   the operations of the Trust.  Should the IETF Trust need to
-   demonstrate a diversity of funding, the IETF LLC is expected to
+   responsible for representing the IETF to sponsors.
+
+   The IETF community therefore expects the Trust to direct its
+   fundraising solely at the IETF LLC, and conversely expects the IETF
+   LLC to fund the operations of the Trust.  Should the IETF Trust need
+   to demonstrate a diversity of funding, the IETF LLC is expected to
    orchestrate that.
+
+2.4.  Accountability
+
+   The Trust consists of five Trustees.  Three are appointed by the IETF
+   NomCom, one by the IESG, and one by the Internet Society (ISOC) Board
+   of Trustees [RFC8714].  Trustees appointed by the NomCom may be
+   recalled per [RFC8713].  Trustees appointed by the IESG or by the
+   ISOC Board of Trustees may be recalled by the appointing body.
+
+   Individual decisions or actions by the Trust may also be appealed by
+   community members [APP] following the process in [RFC2026], with the
+   IAB and the ISOC Board of Trustees as the appeal chain.  The Trust
+   documents appeals and reponses [APP].
+
+   Together, these mechanisms provide sufficient community
+   accountability.
 
 3.  Security Considerations
 
@@ -238,26 +265,42 @@ Table of Contents
 
 5.  Informative References
 
+   [ANN]      "Announcements", n.d.,
+              <https://trustee.ietf.org/about/announcements/>.
+
    [APIT]     "Administrative Procedures of the IETF Trust", 26 May
               2020, <https://trustee.ietf.org/documents/policies-and-
               procedures/administrative-procedures/>.
 
-   [ASSETS]   "Assett Register", n.d.,
+   [APP]      "Appeals", n.d.,
+              <https://trustee.ietf.org/documents/appeals/>.
+
+   [AREG]     "Assett Register", n.d.,
               <https://trustee.ietf.org/assets/asset-register/>.
 
    [COIP]     "Conflict of Interest Policy", 21 April 2016,
               <https://trustee.ietf.org/documents/policies-and-
               procedures/conflict-of-interest-policy/>.
 
-   [MINUTES]  "Minutes", n.d.,
+   [FAQ]      "Frequently Asked Questions", n.d.,
+              <https://trustee.ietf.org/about/faq/>.
+
+   [FIN]      "Financials", n.d.,
+              <https://trustee.ietf.org/about/financials/>.
+
+   [MIN]      "Minutes", n.d.,
               <https://trustee.ietf.org/documents/minutes/>.
 
    [OPPD]     "Obsolete Policies, Procedures & Drafts", n.d.,
               <https://trustee.ietf.org/documents/policies-and-
               procedures/obsolete-policies-procedures/>.
 
-   [PAST]     "IETF - Past Meetings", n.d.,
+   [PM]       "IETF - Past Meetings", n.d.,
               <https://www.ietf.org/how/meetings/past/>.
+
+   [RFC2026]  Bradner, S., "The Internet Standards Process -- Revision
+              3", BCP 9, RFC 2026, DOI 10.17487/RFC2026, October 1996,
+              <https://www.rfc-editor.org/rfc/rfc2026>.
 
    [RFC3552]  Rescorla, E. and B. Korver, "Guidelines for Writing RFC
               Text on Security Considerations", BCP 72, RFC 3552,
@@ -350,10 +393,6 @@ Table of Contents
    [RFC9281]  Salz, R., "Entities Involved in the IETF Standards
               Process", BCP 11, RFC 9281, DOI 10.17487/RFC9281, June
               2022, <https://www.rfc-editor.org/rfc/rfc9281>.
-
-   [RRMP]     "IETF Trust Records Retention and Management Policy", 16
-              June 2016, <https://trustee.ietf.org/documents/policies-
-              and-procedures/records-retention-policy/>.
 
    [TAL]      "Trademarks and Logos", n.d.,
               <https://trustee.ietf.org/assets/trademarks-and-logos/>.
