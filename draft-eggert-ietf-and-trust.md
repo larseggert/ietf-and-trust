@@ -172,10 +172,10 @@ operates.
 
 ## Relationship of the IETF Trust to the IETF and applicability of BCPs (#relate)
 
-The IETF Community considers the Trust to be a core part of the IETF
+The IETF community considers the Trust to be a core part of the IETF
 that is critical to the ongoing function of the IETF. 
 
-Consequently, the IETF Community expects all BCPs that apply to the IETF 
+Consequently, the IETF community expects all RFCs that apply to the IETF 
 to apply to the Trust, even if the Trust is not specifically referenced.
 
 ## Compliance with Foundational Documents {#comp}
@@ -264,13 +264,13 @@ should as a minimum include:
 
 The Trust presents at the IETF plenary to report
 to the IETF community, and its presentations are available as part of
-the IETF proceedings {{PM}}. The Trust only presents to plenary once
+the IETF proceedings {{PM}}. The Trust presents roughly once
 a year, which while strictly conforming to {{TAV2}} is notably less
 frequent than the other parts of the IETF that report at every 
 plenary.  The Trust should match the level of reporting of the other 
 parts of the IETF and present at every plenary.
 
-It also makes information available on
+The Trust also makes information available on
 its website {{TRUST}}, and sends occasional announcements to the IETF
 community by email {{ANN}}.
 
@@ -322,7 +322,7 @@ community members {{APP}} following the process in {{?RFC2026}}, with
 the IAB and the ISOC Board of Trustees as the appeal chain. The Trust
 documents appeals and reponses {{APP}}.
 
-Additionally, the IETF Community as beneficiaries of the Trust, have 
+Additionally, the IETF community as beneficiaries of the Trust, has 
 legal standing to take action against the Trust if they believe it is
 not acting in their best interests.
 
