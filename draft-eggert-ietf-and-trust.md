@@ -70,41 +70,49 @@ informative:
   #   target: https://trustee.ietf.org/documents/policies-and-procedures/records-retention-policy/
   OPPD:
     title: Obsolete Policies, Procedures & Drafts
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/documents/policies-and-procedures/obsolete-policies-procedures/
   PM:
     title: IETF - Past Meetings
+    date: false
     author:
     - org:
     target: https://www.ietf.org/how/meetings/past/
   AREG:
-    title: Assett Register
+    title: Asset Register
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/assets/asset-register/
   TAL:
     title: Trademarks and Logos
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/assets/trademarks-and-logos/
   MIN:
     title: Minutes
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/documents/minutes/
   FIN:
     title: Financials
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/about/financials/
   ANN:
     title: Announcements
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/about/announcements/
   FAQ:
     title: Frequently Asked Questions
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/about/faq/
@@ -115,10 +123,16 @@ informative:
   #   target: https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/
   APP:
     title: Appeals
+    date: false
     author:
     - org:
     target: https://trustee.ietf.org/documents/appeals/
-
+  IICA:
+    title: IANA IPR Community Agreement
+    date: 2016-9-30
+    author:
+    - org:
+    target: https://trustee.ietf.org/wp-content/uploads/Community-Agreement-2016-09-30-Executed.pdf
 
 
 --- abstract
@@ -142,10 +156,10 @@ Various RFCs, summarized in {{rfcs}}, discuss the relationship of the
 Trust to different aspects of the IETF standards process. This
 document intends to complement these existing documents, capturing
 the expectations the IETF community has about the structure and
-operation of the Trust. In addition this document clarifies the
-relationship between the Trust and the IETF and the applicability
-of BCPs that cover the IETF as a whole, without specific mention
-of the Trust.
+operation of the Trust. In addition, this document clarifies the
+relationship between the Trust and the IETF and the applicability of
+BCPs that cover the IETF as a whole, without specific mention of the
+Trust.
 
 
 # Community Expectations about the IETF Trust {#expect}
@@ -166,17 +180,34 @@ the Trust.
 At a minimum, the IETF community expects the Trust to comply with the
 requirements placed upon it by its foundational document {{TAV2}}.
 
-In addition, the IETF community expects the Trust to operate in a
-transparent manner whenever possible, similar to how the IETF itself
-operates.
+In addition, the IETF community expects the Trust to operate
+transparently whenever possible, similar to how the IETF itself
+operates. It is also in the interest of the IETF and the Trust is a
+diverse set of IETF participants is able to volunteer to serve as
+Trustees. Transparency helps understand IETF participants the Trust,
+and allows them to decide whether they can volunteer.
 
-## Relationship of the IETF Trust to the IETF and applicability of BCPs (#relate)
+## Relationship of the IETF Trust to the IETF {#relate}
 
 The IETF community considers the Trust to be a core part of the IETF
 that is critical to the ongoing function of the IETF.
 
-Consequently, the IETF community expects all RFCs that apply to the IETF
-to apply to the Trust, even if the Trust is not specifically referenced.
+Consequently, the IETF community expects all RFCs that apply to the
+IETF to apply to the Trust, even if the Trust is not specifically
+referenced.
+
+The Trust's administrative procedures {{APIT}} under point 9 indicate
+that the Trust partly agrees with this community expectation, when it
+comes to licensing:
+
+>The Trust shall be guided by IETF process documents, decisions of
+ the IETF leadership, IETF consensus, and any legally binding
+ agreements when licensing use of its intellectual property in
+ accordance with the Trust Agreement.
+
+The IETF community, however, expects the Trust to more broadly follow
+IETF consensus and leadership decisions, unless they would conflict
+with the Trust's purpose {{TAV2}}.
 
 ## Compliance with Foundational Documents {#comp}
 
@@ -216,9 +247,9 @@ procedural document on management of the Trust assets.)
 
 ## Transparency of Operation
 
-The IETF community expects the Trust to operate in a transparent
-manner whenever possible, matching the level of transparency
-demonstrated by other parts of the IETF.
+The IETF community expects the Trust to operate transparently whenever
+possible, matching the level of transparency demonstrated by other
+parts of the IETF.
 
 
 ### Assets {#assets}
@@ -248,10 +279,21 @@ licensable, and the license requests it receives and grants.  This
 should as a minimum include:
 
 * The current known licensing position of every RFC.
-* A list of every logo and badge for which the Trust holds the
-  copyright.
+
+* A list of every logo, badge or other graphical asset for which the
+  Trust holds the copyright.
+
 * A list of every website for which the Trust holds the copyright.
+
 * A list of every domain name registered to the Trust.
+
+* All other assets that are maintained by the Trust, such as the
+  hardware security module holding the keys used to provide IETF
+  Secretariat signatures for Internet-Drafts {{?RFC5485}}.
+
+The IPR associated with IANA, which was transferred from ICANN to the
+IETF Trust {{IICA}}, should be included in the detailed record of
+assets above.
 
 
 ### Reporting
@@ -262,17 +304,19 @@ should as a minimum include:
  the activities of the Trust, including grants or licenses given by
  the Trust (...)
 
-The Trust presents at the IETF plenary to report
-to the IETF community, and its presentations are available as part of
-the IETF proceedings {{PM}}. The Trust presents roughly once
-a year, which while strictly conforming to {{TAV2}} is notably less
-frequent than the other parts of the IETF that report at every
-plenary.  The Trust should match the level of reporting of the other
-parts of the IETF and present at every plenary.
+The Trust presents at the IETF plenary to report to the IETF
+community, and its presentations are available as part of the IETF
+proceedings {{PM}}.
 
-The Trust also makes information available on
-its website {{TRUST}}, and sends occasional announcements to the IETF
-community by email {{ANN}}.
+The Trust presents roughly once a year, which while strictly
+conforming to {{TAV2}} is notably less frequent than the other parts
+of the IETF that report at every plenary.  The Trust should match the
+level of reporting of the other parts of the IETF and present at
+every plenary.
+
+The Trust also makes information available on its website
+{{TRUST}}, and sends occasional announcements to the IETF community by
+email {{ANN}}.
 
 However, its presentations and announcements to the community do not
 include information on grants or licenses given by the Trust, and the
@@ -320,7 +364,7 @@ ISOC Board of Trustees may be recalled by the appointing body.
 Individual decisions or actions by the Trust may also be appealed by
 community members {{APP}} following the process in {{?RFC2026}}, with
 the IAB and the ISOC Board of Trustees as the appeal chain. The Trust
-documents appeals and reponses {{APP}}.
+documents appeals and responses {{APP}}.
 
 Additionally, the IETF community as beneficiaries of the Trust, has
 legal standing to take action against the Trust if they believe it is
@@ -331,6 +375,7 @@ accountability.
 
 In the event of the Trust changing its legal structure then these
 three layers of accountability must be maintained.
+
 
 # Security Considerations
 
@@ -391,7 +436,7 @@ make statements about the Trust.
   published on the IAB, Independent and IRTF RFC streams.
 
 * {{?RFC5485}} that the Trust logically owns the hardware security
-  module holding the keys used to provide IETF Secretariat signature
+  module holding the keys used to provide IETF Secretariat signatures
   for Internet-Drafts.
 
 * {{?RFC5378}}, aka BCP78, is the key document that details which
@@ -422,5 +467,5 @@ Initial submission.
 These individuals suggested improvements to this document:
 
 <ul spacing="compact">
-<li><t><contact fullname="TBD"/></t></li>
+<li><t><contact fullname="Jay Daley"/></t></li>
 </ul>
