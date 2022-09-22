@@ -142,7 +142,7 @@ Various RFCs, summarized in {{rfcs}}, discuss the relationship of the
 Trust to different aspects of the IETF standards process. This
 document intends to complement these existing documents, capturing
 the expectations the IETF community has about the structure and
-operation of the Trust. In addition this document clarifies the 
+operation of the Trust. In addition this document clarifies the
 relationship between the Trust and the IETF and the applicability
 of BCPs that cover the IETF as a whole, without specific mention
 of the Trust.
@@ -173,9 +173,9 @@ operates.
 ## Relationship of the IETF Trust to the IETF and applicability of BCPs (#relate)
 
 The IETF community considers the Trust to be a core part of the IETF
-that is critical to the ongoing function of the IETF. 
+that is critical to the ongoing function of the IETF.
 
-Consequently, the IETF community expects all RFCs that apply to the IETF 
+Consequently, the IETF community expects all RFCs that apply to the IETF
 to apply to the Trust, even if the Trust is not specifically referenced.
 
 ## Compliance with Foundational Documents {#comp}
@@ -217,7 +217,7 @@ procedural document on management of the Trust assets.)
 ## Transparency of Operation
 
 The IETF community expects the Trust to operate in a transparent
-manner whenever possible, matching the level of transparency 
+manner whenever possible, matching the level of transparency
 demonstrated by other parts of the IETF.
 
 
@@ -244,11 +244,11 @@ was given the copyright in 2012.
 In order to fulfill its purpose, the IETF community expects the Trust
 to maintain an up-to-date detailed public record on the assets it
 manages, the licenses under which different asset types may be
-licensable, and the license requests it receives and grants.  This 
+licensable, and the license requests it receives and grants.  This
 should as a minimum include:
 
 * The current known licensing position of every RFC.
-* A list of every logo and badge for which the Trust holds the 
+* A list of every logo and badge for which the Trust holds the
   copyright.
 * A list of every website for which the Trust holds the copyright.
 * A list of every domain name registered to the Trust.
@@ -266,8 +266,8 @@ The Trust presents at the IETF plenary to report
 to the IETF community, and its presentations are available as part of
 the IETF proceedings {{PM}}. The Trust presents roughly once
 a year, which while strictly conforming to {{TAV2}} is notably less
-frequent than the other parts of the IETF that report at every 
-plenary.  The Trust should match the level of reporting of the other 
+frequent than the other parts of the IETF that report at every
+plenary.  The Trust should match the level of reporting of the other
 parts of the IETF and present at every plenary.
 
 The Trust also makes information available on
@@ -322,7 +322,7 @@ community members {{APP}} following the process in {{?RFC2026}}, with
 the IAB and the ISOC Board of Trustees as the appeal chain. The Trust
 documents appeals and reponses {{APP}}.
 
-Additionally, the IETF community as beneficiaries of the Trust, has 
+Additionally, the IETF community as beneficiaries of the Trust, has
 legal standing to take action against the Trust if they believe it is
 not acting in their best interests.
 
