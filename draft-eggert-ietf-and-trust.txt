@@ -4,8 +4,8 @@
 
 IETF                                                           L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Best Current Practice                 22 September 2022
-Expires: 26 March 2023
+Intended status: Best Current Practice                 27 September 2022
+Expires: 31 March 2023
 
 
             The Relationship between the IETF and its Trust
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 26 March 2023.
+   This Internet-Draft will expire on 31 March 2023.
 
 Copyright Notice
 
@@ -73,6 +73,7 @@ Table of Contents
      2.3.  Transparency of Operation
        2.3.1.  Assets
        2.3.2.  Reporting
+       2.3.3.  Community Interactions
      2.4.  Funding
      2.5.  Accountability
    3.  Security Considerations
@@ -262,14 +263,28 @@ Table of Contents
    asset register on its website [AREG] is not suitable, as described in
    Section 2.3.1.
 
-   The Trust also holds regular meetings, and publishes their minutes
-   [MIN].  In order to further increase transparency, the Trust should
-   consider announcing the meetings to the public, and letting observers
-   join.
-
    The Trust publishes financial information [FIN], including annual
    budgets and monthly statements, fulfilling the IETF community
    expectations on financial transparency.
+
+2.3.3.  Community Interactions
+
+   The IETF community expects to be able to have public discussions with
+   the Trust and the Trustees.  Many other IETF bodies maintain public
+   discussion email lists for this purpose, and allow questions during
+   meetings.
+
+   The Trust operates the "tlp-interest" mailing list [TLPINT], which
+   was originally created for questions related to the Trust Legal
+   Provisions [TLP].  The Trust has since informally indicated that this
+   list should be seen as their general public discussion list.
+   However, the list is not described or advdertized as such on the
+   Trust website.
+
+   The Trust holds regular meetings and publishes their minutes [MIN].
+   In order to further increase transparency and improve community
+   interactions, the Trust should consider announcing the meetings to
+   the public, and let observers join and ask questions.
 
 2.4.  Funding
 
@@ -461,6 +476,14 @@ Table of Contents
    [TAV2]     "Second Amended and Restated Trust Agreement", 6 November
               2018, <https://trustee.ietf.org/documents/founding-
               documents/second-amended-trust-agreement-2018/>.
+
+   [TLP]      "Trust Legal Provisions (TLP)", n.d.,
+              <https://trustee.ietf.org/documents/trust-legal-
+              provisions/>.
+
+   [TLPINT]   "tlp-interest - Discussion of proposed revisions to the
+              Trust Legal Provisions", n.d.,
+              <https://www.ietf.org/mailman/listinfo/tlp-interest>.
 
    [TRUST]    "IETF Trust", <https://trustee.ietf.org/>.
 
