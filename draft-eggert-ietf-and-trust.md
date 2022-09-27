@@ -116,11 +116,16 @@ informative:
     author:
     - org:
     target: https://trustee.ietf.org/about/faq/
-  # TLP5:
-  #   title: Corrected Legal Provisions Relating to IETF Documents
-  #   author:
-  #   - org:
-  #   target: https://trustee.ietf.org/documents/trust-legal-provisions/tlp-5/
+  TLP:
+    title: Trust Legal Provisions (TLP)
+    author:
+    - org:
+    target: https://trustee.ietf.org/documents/trust-legal-provisions/
+  TLPINT:
+    title: tlp-interest - Discussion of proposed revisions to the Trust Legal Provisions
+    author:
+    - org:
+    target: https://www.ietf.org/mailman/listinfo/tlp-interest
   APP:
     title: Appeals
     date: false
@@ -296,7 +301,7 @@ IETF Trust {{IICA}}, should be included in the detailed record of
 assets above.
 
 
-### Reporting
+### Reporting {#reporting}
 
 {{TAV2}} requires
 
@@ -323,14 +328,29 @@ include information on grants or licenses given by the Trust, and the
 asset register on its website {{AREG}} is not suitable, as described
 in {{assets}}.
 
-The Trust also holds regular meetings, and publishes their minutes
-{{MIN}}. In order to further increase transparency, the Trust
-should consider announcing the meetings to the public, and letting
-observers join.
-
 The Trust publishes financial information {{FIN}}, including annual
 budgets and monthly statements, fulfilling the IETF community
 expectations on financial transparency.
+
+
+### Community Interactions
+
+The IETF community expects to be able to have public discussions with
+the Trust and the Trustees. Many other IETF bodies maintain public
+discussion email lists for this purpose, and allow questions during
+meetings.
+
+The Trust operates the "tlp-interest" mailing list {{TLPINT}}, which
+was originally created for questions related to the Trust Legal
+Provisions {{TLP}}. The Trust has since informally indicated that
+this list should be seen as their general public discussion list.
+However, the list is not described or advdertized as such on the
+Trust website.
+
+The Trust holds regular meetings and publishes their minutes
+{{MIN}}. In order to further increase transparency and improve
+community interactions, the Trust should consider announcing the
+meetings to the public, and let observers join and ask questions.
 
 
 ## Funding
