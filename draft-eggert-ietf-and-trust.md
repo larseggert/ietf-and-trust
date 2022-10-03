@@ -138,6 +138,18 @@ informative:
     author:
     - org:
     target: https://trustee.ietf.org/wp-content/uploads/Community-Agreement-2016-09-30-Executed.pdf
+  BSD3CLAUSE:
+    title: The 3-Clause BSD License
+    date: false
+    author:
+    - org:
+    target: https://opensource.org/licenses/BSD-3-Clause
+  CCBY40:
+    title: Attribution 4.0 International — CC BY 4.0
+    date: false
+    author:
+    - org: Creative Commons
+    target: https://creativecommons.org/licenses/by/4.0/
 
 
 --- abstract
@@ -165,6 +177,12 @@ operation of the Trust. In addition, this document clarifies the
 relationship between the Trust and the IETF and the applicability of
 BCPs that cover the IETF as a whole, without specific mention of the
 Trust.
+
+{:aside}
+> The content of this document is written as if the IETF community had
+  already established consensus on its expectations for the Trust.
+  That consensus will obviously still need to be be estanblished
+  through community discussion and IETF Last Call.
 
 
 # Community Expectations about the IETF Trust {#expect}
@@ -248,6 +266,20 @@ This is especially true for procedures for management of the Trust
 assets, which is the Trust's main responsibility. (The Trust does
 maintain a lengthy FAQ {{FAQ}}, but that does not take the place of a
 procedural document on management of the Trust assets.)
+
+## Asset Licensing
+
+Assets held by the Trust are critically important to the operation of
+the IETF and the broader Internet industry. The IETF community hence
+expects the Trust to license those assets freely, in a manner that
+preserves its the core rights the assets.
+
+The Trust Legal Provisions {{TLP}} have been fulfilling this
+expectation, allowing broad use of the Trust assets both within and
+and outside the IETF standards process. Code components and other
+materials are available under the Revised BSD License
+{{BSD3CLAUSE}} or a Creative Commons Attribution 4.0 license {{CCBY40}},
+respectively.
 
 
 ## Transparency of Operation
@@ -336,15 +368,17 @@ expectations on financial transparency.
 ### Community Interactions
 
 The IETF community expects to be able to have public discussions with
-the Trust and the Trustees. Many other IETF bodies maintain public
-discussion email lists for this purpose, and allow questions during
-meetings.
+the Trust and the Trustees. Many IETF bodies maintain public
+discussion email lists for this purpose, hold "office hour" sessions
+during IETF meetings, or allow questions during their working
+meetings. The Trust should explore these options to strengthen
+interactions with the community.
 
 The Trust operates the "tlp-interest" mailing list {{TLPINT}}, which
 was originally created for questions related to the Trust Legal
 Provisions {{TLP}}. The Trust has since informally indicated that
 this list should be seen as their general public discussion list.
-However, the list is not described or advdertized as such on the
+However, the list is not described or advertised as such on the
 Trust website.
 
 The Trust holds regular meetings and publishes their minutes
@@ -488,4 +522,5 @@ These individuals suggested improvements to this document:
 
 <ul spacing="compact">
 <li><t><contact fullname="Jay Daley"/></t></li>
+<li><t><contact fullname="Glenn Deen"/></t></li>
 </ul>
