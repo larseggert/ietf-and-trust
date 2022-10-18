@@ -4,8 +4,9 @@
 
 IETF                                                           L. Eggert
 Internet-Draft                                                    NetApp
-Intended status: Best Current Practice                    3 October 2022
-Expires: 6 April 2023
+Intended status: Best Current Practice                        R. Housley
+Expires: 21 April 2023                                    Vigil Security
+                                                         18 October 2022
 
 
             The Relationship between the IETF and its Trust
@@ -48,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 6 April 2023.
+   This Internet-Draft will expire on 21 April 2023.
 
 Copyright Notice
 
@@ -84,7 +85,7 @@ Table of Contents
    Appendix B.  Changelog
      B.1.  draft-eggert-ietf-and-trust-00
    Acknowledgments
-   Author's Address
+   Authors' Addresses
 
 1.  Introduction
 
@@ -587,7 +588,7 @@ Acknowledgments
    *  Jay Daley
    *  Glenn Deen
 
-Author's Address
+Authors' Addresses
 
    Lars Eggert
    NetApp
@@ -596,3 +597,11 @@ Author's Address
    Finland
    Email: lars@eggert.org
    URI:   https://eggert.org/
+
+
+   Russ Housley
+   Vigil Security, LLC
+   516 Dranesville Road
+   Herndon, VA,  20170
+   United States of America
+   Email: housley@vigilsec.com
