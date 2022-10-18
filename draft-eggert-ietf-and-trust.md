@@ -34,6 +34,16 @@ author:
   email: lars@eggert.org
   uri: "https://eggert.org/"
   # role: editor
+ -
+  ins: R. Housley
+  name: Russ Housley
+  org: Vigil Security, LLC
+  abbrev: Vigil Security
+  street: 516 Dranesville Road
+  city: Herndon, VA
+  code: 20170
+  country: US
+  email: housley@vigilsec.com
 
 normative:
 
