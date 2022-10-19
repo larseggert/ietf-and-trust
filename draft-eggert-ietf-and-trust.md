@@ -20,7 +20,7 @@ venue:
   type: Working Group
   mail: gendispatch@ietf.org
   arch: https://mailarchive.ietf.org/arch/browse/gendispatch/
-  github: https://github.com/larseggert/ietf-and-trust
+  github: larseggert/ietf-and-trust
   latest: https://larseggert.github.io/ietf-and-trust/#go.draft-eggert-ietf-and-trust.html
 
 author:
