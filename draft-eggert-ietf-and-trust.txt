@@ -200,7 +200,7 @@ Table of Contents
    Assets held by the Trust are critically important to the operation of
    the IETF and the broader Internet industry.  The IETF community hence
    expects the Trust to license those assets freely, in a manner that
-   preserves its the core rights the assets.
+   preserves its core rights in the assets.
 
    The Trust Legal Provisions [TLP] have been fulfilling this
    expectation, allowing broad use of the Trust assets both within and
