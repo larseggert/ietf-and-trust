@@ -5,8 +5,8 @@
 IETF                                                           L. Eggert
 Internet-Draft                                                    NetApp
 Intended status: Best Current Practice                        R. Housley
-Expires: 21 April 2023                                    Vigil Security
-                                                         18 October 2022
+Expires: 22 April 2023                                    Vigil Security
+                                                         19 October 2022
 
 
             The Relationship between the IETF and its Trust
@@ -32,7 +32,7 @@ About This Document
    at https://www.ietf.org/mailman/listinfo/gendispatch/.
 
    Source for this draft and an issue tracker can be found at
-   https://github.com/https://github.com/larseggert/ietf-and-trust.
+   https://github.com/larseggert/ietf-and-trust.
 
 Status of This Memo
 
@@ -49,7 +49,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 21 April 2023.
+   This Internet-Draft will expire on 22 April 2023.
 
 Copyright Notice
 
